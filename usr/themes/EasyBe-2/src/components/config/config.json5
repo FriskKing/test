@@ -1,0 +1,326 @@
+/**
+ * UPDATES AND DOCS AT: https://github.com/wangyang0210
+ * https://www.cnblogs.com/wangyang0210/
+ * @author: WangYang, wangyang.0210@foxmail.com
+ * @Date 2022-08-25 15:32
+ * ----------------------------------------------
+ * @describe: 默认配置
+ */
+{
+  // -- 基础信息 --
+  info: {
+    name: '。思索',
+    job: '职业',
+    posting: '坐标',
+    proverb: '格言',
+    domain:'',
+    connect: '',
+    rss: '',
+    admin: '',
+    startDate: '2021-01-01',
+    connect: '',
+    avatar: '',
+    blogIcon: '',
+  },
+
+  // -- 侧边栏 --
+  sidebar: {
+    navList: [],
+    customList: {},
+    infoBackground: '',
+    titleMsg: '欢迎访问本博客~',
+    submenu: {
+      // 最新随笔
+      latestPosts: false,
+      // 最新评论
+      latestComment: false,
+      // 我的标签
+      myTags: false,
+      // 随笔分类
+      postsClassify: false,
+      // 阅读排行
+      readRank: false,
+      // 推荐排行
+      recommendRank: false,
+      // 帖子档案
+      postsArchive: false,
+      // 自定义列表
+      customList: false
+    }
+  },
+
+  // -- 头图 --
+  banner: {
+    text: false,
+    home: {
+      background: [],
+      title: [],
+      titleSource: 'jinrishici',
+    },
+    article: {
+      background: []
+    }
+  },
+
+  // -- Loading --
+  loading: {
+    rebound: {
+      tension: 16,
+      friction: 5
+    },
+    spinner: {
+      id: 'spinner',
+      radius: 90,
+      sides: 3,
+      depth: 4,
+      colors: {
+        background: '#f0f0f0',
+        stroke: '#272633',
+        base: null,
+        child: '#272633'
+      },
+      alwaysForward: true,
+      restAt: 0.5,
+      renderBase: false
+    }
+  },
+
+  // -- fontIcon --
+  fontIconExtend: '',
+
+  // -- 进度条 --
+  progressBar: {
+    id: 'top-progress-bar',
+    color: '#77b6ff',
+    height: '2px',
+    duration: 0.2
+  },
+
+  // -- 页面 title --
+  title: {
+    onblur: '(oﾟvﾟ)ノ Hi',
+    onblurTime: 500,
+    focus: '(*´∇｀*) 欢迎回来！',
+    focusTime: 1000
+  },
+
+  // -- footer --
+  footer: {
+    text: {
+      left: '',
+      right: '',
+      iconFont: {
+        icon:  "icon-xinlv",
+        color: "red",
+        fontSize: "16px"
+      }
+    },
+    style: 2
+  },
+
+  // -- 友情链接 --
+  links: {
+    footer: [],
+    page: []
+  },
+
+  // -- cnzz --
+  cnzz: '',
+
+  // -- umami --
+  umami: {
+    url: '',
+    shareId: ''
+  },
+
+  // -- 备案信息 --
+  beian: {
+    info: '',
+  },
+
+  gonganbeian: {
+    info: '',
+    link: '',
+  },
+
+  // -- 右下角菜单 --
+  rtMenu: {
+    qrCode: '',
+    reward: {
+      alipay: '',
+      wechatpay: ''
+    },
+    downScrollDom: '',
+  },
+
+  // -- 日/夜模式 --
+  switchDayNight: {
+    enable: true,
+    nightMode: false,
+    auto: {
+      enable: false,
+      dayHour: 5,
+      nightHour: 19
+    }
+  },
+
+  // -- 动效 --
+  animate: {
+    bannerImages: {
+      enable: false,
+      options: {
+        itemNum: 5,
+        current: 0,
+        sort: 1,
+        time: 30000
+      }
+    },
+    homeBanner: {
+      enable: false,
+      options: {
+        radius: 15,
+        density: 0.2,
+        color: 'rgba(255,255,255, .2)',
+        clearOffset: 0.3
+      }
+    },
+    articleTitle: {
+      enable: true
+    },
+    articleBanner: {
+      enable: false
+    },
+    background: {
+      ribbons: {
+        enable: false,
+        options: {
+          colorSaturation: "60%",
+          colorBrightness: "50%",
+          colorAlpha: 0.5,
+          colorCycleSpeed: 5,
+          verticalPosition: "random",
+          horizontalSpeed: 200,
+          ribbonCount: 3,
+          strokeSize: 0,
+          parallaxAmount: -0.2,
+          animateSections: true
+        }
+      },
+      particles: {
+        enable: false,
+        options: {
+
+        }
+      },
+      season: {
+        enable: false,
+        options: {
+          img: "",
+          size: 40,
+        }
+      }
+    },
+    mouse: {
+      bubble: {
+        enable: false,
+        options: {
+          live: 30,
+          colors: [
+            "149, 197, 252",
+            "224, 199, 252"
+          ],
+          quantity: 15,
+          size: 5
+        }
+      },
+      mouse: {
+        enable: false,
+        options: {
+          size: 8,
+          sizeF: 36
+        }
+      },
+      mo: {
+        enable: false,
+        options: {
+          radius:   { "0": 100 },
+          count:    5,
+          children: {
+            shape:      'polygon',
+            fill:       { 'cyan' : 'yellow' },
+            radius:     20,
+            rotate:      { "360": 0 },
+            duration:   2000
+          }
+        }
+      },
+      click: {
+        enable: false,
+        options: {}
+      }
+    },
+    infoName: {
+      enable: false,
+    },
+    avatar: {
+      enable: false,
+    }
+  },
+
+  // -- 代码 --
+  code: {
+    type: '',  // hljs
+    options: {
+      hljs: {
+        theme: 'atom-one-dark-reasonable',
+        languages: []
+      },
+      maxHeight: '',
+      line: false,
+      macStyle: true,
+    },
+  },
+
+  // -- 文章后缀 --
+  articleSuffix: {
+    imgUrl: '',
+    aboutHtml: '',
+    copyrightHtml: '',
+    supportHtml: '',
+    copyText: {
+      enable: false,
+      length: 30,
+      copyright: ''
+    },
+  },
+
+  // -- 文章目录 --
+  articleDirectory: {
+    position: 'right',
+    minBodyWeight: 900,
+    autoWidthScroll: false
+  },
+
+  // -- 控制台输出 --
+  consoleList: [],
+
+  // -- 书单信息 --
+  bookList: [],
+
+  // -- 公祭日和缅怀的日子 --
+  memorialDays: ['12-13'],
+
+  // -- 文章内容效果
+  articleContent: {
+    link: false,
+    iconfont: {
+      enable: false,
+      options: {
+        type: 'defaults'
+      }
+    }
+  },
+
+  // -- 钩子 --
+  hooks: {}
+}
